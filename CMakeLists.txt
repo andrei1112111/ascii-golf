@@ -3,8 +3,9 @@ project(ascii_golf)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(ascii_golf main.cpp
-        tragectory.cpp
+add_executable(ascii_golf
+        main.cpp
         graphics.cpp
-        tragectory.h
-        graphics.h)
+        tragectory.cpp
+        IO.cpp
+)
